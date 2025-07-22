@@ -17,16 +17,16 @@ const Home = () => {
   const [cart, setCart] = useState([]);
 
   const dishes = [
-    { id: 1, name: "Spicy Ramen", price: 10.99, image: dish1 },
-    { id: 2, name: "Beef Burger", price: 8.5, image: dish2 },
-    { id: 3, name: "Dish 3", price: 9.99, image: dish3 },
-    { id: 4, name: "Dish 4", price: 12.49, image: dish4 },
-    { id: 5, name: "Dish 5", price: 11.75, image: dish5 },
-    { id: 6, name: "Dish 6", price: 9.25, image: dish6 },
-    { id: 7, name: "Dish 7", price: 13.25, image: dish7 },
-    { id: 8, name: "Dish 8", price: 10.25, image: dish8 },
-    { id: 9, name: "Dish 9", price: 11.0, image: dish9 },
-    { id: 10, name: "Dish 10", price: 12.99, image: dish10 },
+    { id: 1, name: "Chicken Biryani", price: 10.99, image: dish1 },
+    { id: 2, name: "Grilled Beef", price: 8.5, image: dish2 },
+    { id: 3, name: "Chow mein", price: 9.99, image: dish3 },
+    { id: 4, name: "Salad", price: 12.49, image: dish4 },
+    { id: 5, name: "Grilled fish", price: 11.75, image: dish5 },
+    { id: 6, name: "Beef Pulao", price: 9.25, image: dish6 },
+    { id: 7, name: "Shami Kabab", price: 13.25, image: dish7 },
+    { id: 8, name: "Chicken Corma", price: 10.25, image: dish8 },
+    { id: 9, name: "White Corma", price: 11.0, image: dish9 },
+    { id: 10, name: "Patties", price: 12.99, image: dish10 },
   ];
 
   const addToCart = (item) => {
